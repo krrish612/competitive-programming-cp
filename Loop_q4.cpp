@@ -1,13 +1,14 @@
-#include<iostream>
-using  namespace std;
-int main(){
+#include <iostream>
+using namespace std;
+
+int main() {
     int n;
-    cout<<"Enter the  Number Of the N:";
-    cin>>n;
-    for(int  i = 1; i<=n; i++){
-        cout<<i<<endl;
+    cout << "Enter the Number Of The N: ";
+    cin >> n;
 
+    for (int i = 1; i <= n; i++) {
+        cout << i << endl;
     }
-    return 0;
 
-} 
+    return 0;
+}
