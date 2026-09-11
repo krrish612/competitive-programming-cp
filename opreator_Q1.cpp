@@ -5,7 +5,7 @@ int main (){
     int n;
     cout<<"Enter the value of the n:";
     cin>>n;
-    int count = 0; 
+    int count = 1; 
     for(int i = 0; i<n; i++){
         if(n>0){
             n=n/10;
